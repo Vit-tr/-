@@ -1,0 +1,55 @@
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.trades-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.trades-table th {
+  text-align: left;
+  padding: 12px;
+  background: oklch(97% 0 0);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--border);
+}
+
+.trades-table td {
+  padding: 12px;
+  border-bottom: 1px solid var(--border);
+  font-size: 14px;
+}
+
+.trades-table tr:hover {
+  background: oklch(98% 0 0);
+}
+
+.pnl-positive {
+  color: var(--success);
+  font-weight: 600;
+}
+
+.pnl-negative {
+  color: var(--danger);
+  font-weight: 600;
+}
+
+.status-badge {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.status-open {
+  background: oklch(85% 0.05 200);
+  color: oklch(40% 0.1 200);
+}
+
+.status-closed {
+  background: oklch(85% 0.05 150);
+  color: oklch(35% 0.1 150);
+}

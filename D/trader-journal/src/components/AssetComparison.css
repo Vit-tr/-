@@ -1,0 +1,26 @@
+.comparison-table {
+  display: grid;
+  grid-template-columns: 1fr 120px 120px;
+  gap: 12px;
+}
+
+.comparison-header {
+  font-weight: 600;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+  font-size: 13px;
+}
+
+.comparison-row {
+  padding: 8px 0;
+  border-bottom: 1px solid oklch(93% 0 0);
+  font-size: 14px;
+}
+
+.comparison-row.positive {
+  color: var(--success);
+}
+
+.comparison-row.negative {
+  color: var(--danger);
+}
